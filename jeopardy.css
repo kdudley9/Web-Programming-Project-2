@@ -1,0 +1,125 @@
+table {
+   text-align: center;
+   width: 960px;
+   height: 600px;
+   border: 3px outset black;
+   color: rgb(245, 245, 0);
+   background-color: blue;
+   margin-top: -1%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 24pt;
+   border-collapse: collapse;
+}
+th, td {
+   border: 2px solid black;
+   width: 300px;
+   height: 75px;
+   border-collapse: collapse;
+}
+
+
+table.center {
+   margin-left: auto;
+   margin-right: auto;
+}
+body {
+   margin: 0;
+   background-image: url(jeopardy.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h1 {
+   text-align: center;
+   margin-top: 2%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: white;
+   font-size: 50pt;
+   letter-spacing: 3px;
+   text-shadow: 0 0 10px #FF0000, 0 0 12px #0000FF;
+}
+div {
+   text-align: center;
+   width: 960px;
+   height: 600px;
+   border: 3px outset black;
+   background-color: blue;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 24pt;
+   color: white;
+   margin-top: -1%;
+
+
+}
+div.center {
+   margin-left: auto;
+   margin-right: auto;
+}
+.button {
+   border: none;
+   width: 250px;
+   height: 100px;
+   color: white;
+   padding: 16px 32px;
+   text-align: center;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   background-color: blue;
+   color: white;
+   border: 2px solid rgb(245, 245, 0); 
+   margin-top: 8%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 24pt;
+ }
+ .button:hover {
+   background-color:  rgb(245, 245, 0);
+   color: black;
+ }
+
+
+ a {
+   color:  rgb(245, 245, 0);
+   background-color: transparent;
+   text-decoration: none;
+   cursor: pointer;
+ }
+ a:visited {
+   color: rgb(112, 165, 224);
+   background-color: transparent;
+   text-decoration: none;
+ }
+ a:hover {
+   color: red;
+   background-color: transparent;
+   text-decoration: underline;
+ }
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: right;
+    list-style: none;
+    text-align: center;
+    background-color: blue;
+    margin-right: 25px;
+    width: 125px;
+    line-height: 40px;
+}
+
+.navbar li a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.navbar li a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}

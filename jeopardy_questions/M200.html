@@ -1,0 +1,26 @@
+<html> 
+    <head>
+        <title>Jeopardy!</title> 
+        <link href="../jeopardy.css" type="text/css" rel="stylesheet">
+        <body>
+            <h1>JEOPARDY!</h1>
+            <div class="center"> 
+        
+        <form action="../action_page.php" method="post">
+            <p>Finish the lyric:</p>
+            <p>"Toniiiiight! We are _________! So let's set the world on fire!</p>
+            <input type="radio" id="young" name="lyric" value="a">
+            <label for="young">Young</label><br>
+            <input type="radio" id="old" name="lyric" value="b">
+            <label for="old">Old</label><br>
+            <input type="radio" id="dead" name="lyric" value="c">
+            <label for="dead">Dead</label><br>
+            <input type="hidden" name="answer" value="0"> <!--Index of the correct answer in $answers array-->
+            <input type="hidden" name="point_value" value="1">
+            <button class="button" type="submit">Submit</button>
+        </form>
+        </div>
+        
+    </body>
+    </head>
+</html>

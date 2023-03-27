@@ -1,0 +1,26 @@
+<html> 
+    <head>
+        <title>Jeopardy!</title> 
+        <link href="https://codd.cs.gsu.edu/~kdudley9/webpro/PW/2/jeopardy.css" type="text/css" rel="stylesheet">
+        <body>
+            <h1>JEOPARDY!</h1>
+            <div class="center"> 
+        
+        <form action="https://codd.cs.gsu.edu/~kdudley9/webpro/PW/2/action_page.php" method="post">
+            <p>This member of The Beatles wrote hits such as</p>
+            <p>"Hey Jude" and "Let It Be."</p>
+            <br>
+            <input type="radio" id="young" name="lyric" value="a">
+            <label for="PM">Paul McCartney</label><br>
+            <input type="radio" id="old" name="lyric" value="b">
+            <label for="JL">John Lennon</label><br>
+            <input type="radio" id="dead" name="lyric" value="c">
+            <label for="RS">Ringo Starr</label><br>
+            <input type="hidden" name="answer" value="0"> <!--Index of the correct answer in $answers array-->
+            <input type="hidden" name="point_value" value="2">
+            <button class="button" type="submit">Submit</button>
+        </form>
+        </div>
+    </body>
+    </head>
+</html>
